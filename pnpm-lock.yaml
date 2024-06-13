@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@workos-inc/node':
+        specifier: ^7.10.0
+        version: 7.10.0
       hono:
         specifier: ^4.4.5
         version: 4.4.5
@@ -224,6 +227,10 @@ packages:
   '@types/node@20.14.2':
     resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
 
+  '@workos-inc/node@7.10.0':
+    resolution: {integrity: sha512-bRAZFyLUhuRLsQhTdIkbg/+zlmyKVcWbto3hT22dHWlvSENWTEn7PCyFA4rQBS0SaASZ08LdDJF+BaAk3raIZQ==}
+    engines: {node: '>=16'}
+
   acorn-walk@8.3.2:
     resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==}
     engines: {node: '>=0.4.0'}
@@ -394,6 +401,10 @@ packages:
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+
+  pluralize@8.0.0:
+    resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
+    engines: {node: '>=4'}
 
   printable-characters@1.0.42:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
@@ -621,6 +632,10 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
+  '@workos-inc/node@7.10.0':
+    dependencies:
+      pluralize: 8.0.0
+
   acorn-walk@8.3.2: {}
 
   acorn@8.11.3: {}
@@ -790,6 +805,8 @@ snapshots:
   pathe@1.1.2: {}
 
   picomatch@2.3.1: {}
+
+  pluralize@8.0.0: {}
 
   printable-characters@1.0.42: {}
 
