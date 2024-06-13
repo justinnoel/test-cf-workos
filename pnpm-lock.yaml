@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@workos-inc/node':
-        specifier: ^7.10.0
-        version: 7.10.0
+        specifier: 7.8.0
+        version: 7.8.0
       hono:
         specifier: ^4.4.5
         version: 4.4.5
@@ -227,9 +227,9 @@ packages:
   '@types/node@20.14.2':
     resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
 
-  '@workos-inc/node@7.10.0':
-    resolution: {integrity: sha512-bRAZFyLUhuRLsQhTdIkbg/+zlmyKVcWbto3hT22dHWlvSENWTEn7PCyFA4rQBS0SaASZ08LdDJF+BaAk3raIZQ==}
-    engines: {node: '>=16'}
+  '@workos-inc/node@7.8.0':
+    resolution: {integrity: sha512-irFrZ61TNGI5D0NYq+RdwI4xQuLiw7Wcjs7cA1jbN8lM7J7dLamBWzRPgRipmeMsQU8EnFVOfzphedXkbjFOxg==}
+    engines: {node: '>=19'}
 
   acorn-walk@8.3.2:
     resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==}
@@ -632,7 +632,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@workos-inc/node@7.10.0':
+  '@workos-inc/node@7.8.0':
     dependencies:
       pluralize: 8.0.0
 
